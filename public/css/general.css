@@ -9,15 +9,20 @@ font-family: 'Work Sans', sans-serif;
     --tipoGrafiaGeneral: 'Open Sans', sans-serif;
     --colorVerde: #44a391;
 }
+body{
+    font-family: var(--tipoGrafiaGeneral);
+
+}
 h1{
     font-family: var(--tipoGrafiaTitulos);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 65px;
 }
-body{
-    font-family: var(--tipoGrafiaGeneral);
-
+h2{
+    font-family: var(--tipoGrafiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
 }
 a {
     text-decoration: none;

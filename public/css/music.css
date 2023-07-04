@@ -1,0 +1,37 @@
+body.music{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.music main{
+    margin-left: 8px; 
+}
+.music--links h4{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.music--links a{
+    margin-left: 55px;
+    color: gray;
+}
+.music main section article{
+    margin-top: 50px;
+}
+.music section ol li{
+    list-style-type: decimal-leading-zero;
+    font-family: var(--tipoGrafiaGeneral);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.music section article p{
+    font-family: var(--tipoGrafiaGeneral);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 5px;
+}
+.music section article a{
+    color: gray;
+    font-size: 15px;
+}
